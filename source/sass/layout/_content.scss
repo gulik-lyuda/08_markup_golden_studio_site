@@ -69,5 +69,38 @@
 		.portfolio {
 			background-color: $light_bg_color;
 
+			.portfolio-item {
+				float: left;
+				width: 31%;
+				margin-right: 3.5%;
+				margin-bottom: 50px;
+
+				background-color: $white-color;
+				
+				&:nth-child(3n) { //delete right margin for every third item in our list
+					margin-right: 0;
+				}
+
+				&:nth-last-child(1),
+				&:nth-last-child(2),
+				&:nth-last-child(3) { //delete bottom margin for last three items
+					margin-bottom: 0;
+				}
+
+				img {
+					width: 100%;
+				}
+
+				span {
+					font: 14px/14px 'droid_serifitalic';
+				}
+
+				.portfolio-item-footer {
+					padding: 25px 20px;
+				}
+			}
+
+
+
 		} //end of .portfolio
 }

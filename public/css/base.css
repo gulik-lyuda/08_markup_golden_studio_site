@@ -5850,7 +5850,7 @@ body {
     color: #777; }
   .section .item-title {
     margin-bottom: 10px;
-    font: bold 18px/45px 'montserratbold';
+    font: bold 18px/18px 'montserratbold';
     text-transform: uppercase;
     color: #222; }
 
@@ -5930,3 +5930,19 @@ header {
 
 .wrapper .portfolio {
   background-color: #f7f7f7; }
+  .wrapper .portfolio .portfolio-item {
+    float: left;
+    width: 31%;
+    margin-right: 3.5%;
+    margin-bottom: 50px;
+    background-color: #fff; }
+    .wrapper .portfolio .portfolio-item:nth-child(3n) {
+      margin-right: 0; }
+    .wrapper .portfolio .portfolio-item:nth-last-child(1), .wrapper .portfolio .portfolio-item:nth-last-child(2), .wrapper .portfolio .portfolio-item:nth-last-child(3) {
+      margin-bottom: 0; }
+    .wrapper .portfolio .portfolio-item img {
+      width: 100%; }
+    .wrapper .portfolio .portfolio-item span {
+      font: 14px/14px 'droid_serifitalic'; }
+    .wrapper .portfolio .portfolio-item .portfolio-item-footer {
+      padding: 25px 20px; }
