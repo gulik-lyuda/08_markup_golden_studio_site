@@ -5799,6 +5799,30 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+@font-face {
+  font-family: 'montserratregular';
+  src: url("fonts/montserrat-regular-webfont.woff2") format("woff2"), url("fonts/montserrat-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'montserratbold';
+  src: url("fonts/montserrat-bold-webfont.woff2") format("woff2"), url("fonts/montserrat-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'droid_serifitalic';
+  src: url("fonts/droidserif-italic-webfont.woff2") format("woff2"), url("fonts/droidserif-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'roboto_slabregular';
+  src: url("fonts/robotoslab-regular-webfont.woff2") format("woff2"), url("fonts/robotoslab-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 html {
   height: 100%; }
 
@@ -5810,6 +5834,25 @@ body {
 .container {
   width: 940px;
   margin: 0 auto; }
+
+.section {
+  padding: 120px 0;
+  text-align: center; }
+  .section .heading {
+    padding-bottom: 80px; }
+  .section .title {
+    font: bold 40px/75px 'montserratbold';
+    text-transform: uppercase;
+    color: #222; }
+  .section .description {
+    margin-bottom: 10px;
+    font: 16px 'droid_serifitalic';
+    color: #777; }
+  .section .item-title {
+    margin-bottom: 10px;
+    font: bold 18px/45px 'montserratbold';
+    text-transform: uppercase;
+    color: #222; }
 
 .clearfix:before,
 .clearfix:after {
@@ -5835,7 +5878,7 @@ header {
       header nav ul li:last-child {
         margin-right: 0; }
     header nav ul a {
-      font: 14px Arial, sans-serif;
+      font: 14px/14px 'montserratregular';
       color: #fff;
       text-transform: uppercase; }
       header nav ul a:hover {
@@ -5850,10 +5893,10 @@ header {
   color: #fff; }
   .wrapper .home h3 {
     padding-bottom: 40px;
-    font: 40px/40px Arial sans-serif; }
+    font: 40px/40px 'droid_serifitalic'; }
   .wrapper .home h1 {
     padding-bottom: 50px;
-    font: 75px/75px Arial sans-serif;
+    font: 75px/75px 'montserratbold';
     text-transform: uppercase; }
   .wrapper .home .btn_more {
     display: inline-block;
@@ -5861,8 +5904,29 @@ header {
     background: #fed136;
     border-radius: 4px;
     border: none;
-    font: bold 24px/24px Arial sans-serif;
+    font: bold 18px/18px 'montserratbold';
     text-transform: uppercase; }
     .wrapper .home .btn_more:hover {
       background: #feb322;
       color: #fff; }
+
+.wrapper .services .services-item {
+  float: left;
+  width: 33.33%;
+  padding: 90px 10px 0; }
+  .wrapper .services .services-item p {
+    font: 14px/24px 'roboto_slabregular';
+    letter-spacing: -0.049em;
+    color: #777; }
+
+.wrapper .services .e-commerce {
+  background: url(../images/icons/icon_services_ecommerce.png) no-repeat center top; }
+
+.wrapper .services .responsive-web {
+  background: url(../images/icons/icon_services_responsive_web.png) no-repeat center top; }
+
+.wrapper .services .web-security {
+  background: url(../images/icons/icon_services_web_security.png) no-repeat center top; }
+
+.wrapper .portfolio {
+  background-color: #f7f7f7; }

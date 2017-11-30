@@ -22,12 +22,12 @@ header {
 		}
 
 		ul a {
-			font: 14px Arial, sans-serif;
-			color: #fff;
+			font: 14px/14px 'montserratregular';
+			color: $white_color;
 			text-transform: uppercase;
 
 			&:hover {
-				color: #fed136;
+				color: $orange_color;
 			}
 		}
 	}

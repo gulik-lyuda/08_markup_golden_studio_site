@@ -5,12 +5,42 @@ html {
 body {
 	height: 100%;
 	font: 14px/18px 'Times New Roman', Times, sans-serif;
-	background-color: #fff;
+	background-color: $white-color;
 }
 
 .container {
 	width: 940px;
 	margin: 0 auto;
+}
+
+.section {
+	padding: 120px 0;
+	text-align: center;
+
+	.heading {
+		padding-bottom: 80px;
+	}
+
+	.title {
+		font: bold 40px/75px 'montserratbold';
+		text-transform: uppercase;
+		color: $dark_bg_color;
+	}
+
+	.description {
+		margin-bottom: 10px;
+
+		font: 16px 'droid_serifitalic';
+		color: $grey_font_color;
+	}
+
+	.item-title {
+		margin-bottom: 10px;
+
+		font: bold 18px/45px 'montserratbold';
+		text-transform: uppercase;
+		color: $dark_bg_color;
+	}
 }
 
 // to zero out floats
