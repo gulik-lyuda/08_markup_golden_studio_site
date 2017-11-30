@@ -5798,3 +5798,71 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+
+html {
+  height: 100%; }
+
+body {
+  height: 100%;
+  font: 14px/18px 'Times New Roman', Times, sans-serif;
+  background-color: #fff; }
+
+.container {
+  width: 940px;
+  margin: 0 auto; }
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+header {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 20px 0; }
+  header .logo {
+    float: left; }
+  header nav {
+    float: right;
+    padding-top: 5px; }
+    header nav ul li {
+      float: left;
+      margin-right: 40px; }
+      header nav ul li:last-child {
+        margin-right: 0; }
+    header nav ul a {
+      font: 14px Arial, sans-serif;
+      color: #fff;
+      text-transform: uppercase; }
+      header nav ul a:hover {
+        color: #fed136; }
+
+.wrapper .home {
+  height: 700px;
+  padding-top: 270px;
+  background: #222 url("../images/backgrounds/home_bg.png") no-repeat center bottom;
+  background-size: cover;
+  text-align: center;
+  color: #fff; }
+  .wrapper .home h3 {
+    padding-bottom: 40px;
+    font: 40px/40px Arial sans-serif; }
+  .wrapper .home h1 {
+    padding-bottom: 50px;
+    font: 75px/75px Arial sans-serif;
+    text-transform: uppercase; }
+  .wrapper .home .btn_more {
+    display: inline-block;
+    padding: 20px 30px;
+    background: #fed136;
+    border-radius: 4px;
+    border: none;
+    font: bold 24px/24px Arial sans-serif;
+    text-transform: uppercase; }
+    .wrapper .home .btn_more:hover {
+      background: #feb322;
+      color: #fff; }

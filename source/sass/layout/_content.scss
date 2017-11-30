@@ -1,0 +1,41 @@
+.wrapper {
+
+	.home {
+		height: 700px;
+		padding-top: 270px;
+		background: #222 url('../images/backgrounds/home_bg.png') no-repeat center bottom;
+		background-size: cover; //to cover our div by all width
+
+		text-align: center;
+		color: #fff;
+
+		h3 {
+			padding-bottom: 40px;
+
+			font: 40px/40px Arial sans-serif;
+		}
+
+		h1 {
+			padding-bottom: 50px;
+
+			font: 75px/75px Arial sans-serif;
+			text-transform: uppercase;
+		}
+
+		.btn_more {
+			display: inline-block;
+			padding: 20px 30px;
+			background: #fed136;
+			border-radius: 4px;
+			border: none;
+
+			font: bold 24px/24px Arial sans-serif;
+			text-transform: uppercase;
+
+			&:hover {
+				background: #feb322;
+				color: #fff;
+			}
+		}
+	}
+}

@@ -1,0 +1,34 @@
+header {
+	position: absolute;
+	top: 20px;
+	width: 100%; //all width to avoid alignment to left side
+	padding: 20px 0;
+
+	.logo {
+		float: left;
+	}
+
+	nav {
+		float: right;
+		padding-top: 5px;
+
+		ul li {
+			float: left;  //set menu items horizontal
+			margin-right: 40px;
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+
+		ul a {
+			font: 14px Arial, sans-serif;
+			color: #fff;
+			text-transform: uppercase;
+
+			&:hover {
+				color: #fed136;
+			}
+		}
+	}
+}
