@@ -99,8 +99,66 @@
 					padding: 25px 20px;
 				}
 			}
-
-
-
 		} //end of .portfolio
+
+		.about {
+			
+			.about-item {
+				float: left;
+
+				.about-text {
+					width: 35%;
+					
+					h5 {
+						line-height: 24px;
+						text-transform: none;
+					}
+
+					p {
+						font: 14px/20px 'roboto_slabregular';
+						color: $grey_font_color;
+					}
+				} // end of .about-text
+
+				.about-img {
+					width: 30%;
+
+					img {
+						display: inline-block;
+						width: 177px;
+						height: 177px;
+
+						border: 7px solid $grey_border_color;
+						border-radius: 50%;
+					}
+
+					&:after { // add vertical line after image
+						display: block;
+						margin: 0 auto;
+						height: 94px;
+						width: 3px;
+
+						content: "";
+						background-color: $grey_border_color;
+					}
+				} // end of .about-img
+			} // end of .about-item
+
+			.about-link {
+					display: inline-block;
+					background-color: $orange_color;
+					width: 177px;
+					height: 177px;
+					padding-top: 35px;
+
+					border: 7px solid $grey_border_color;
+					border-radius: 50%;					
+
+					font: 18px/26px 'montserratbold';
+					color: $white-color;
+					text-transform: uppercase;
+					text-shadow: 0 1px rgba(0,0,0,0.3);
+				} // end of .about-link
+
+			} //end of .about
 }

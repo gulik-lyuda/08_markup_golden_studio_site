@@ -5862,6 +5862,18 @@ body {
 .clearfix:after {
   clear: both; }
 
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
 header {
   position: absolute;
   top: 20px;
@@ -5946,3 +5958,42 @@ header {
       font: 14px/14px 'droid_serifitalic'; }
     .wrapper .portfolio .portfolio-item .portfolio-item-footer {
       padding: 25px 20px; }
+
+.wrapper .about .about-item {
+  float: left; }
+  .wrapper .about .about-item .about-text {
+    width: 35%; }
+    .wrapper .about .about-item .about-text h5 {
+      line-height: 24px;
+      text-transform: none; }
+    .wrapper .about .about-item .about-text p {
+      font: 14px/20px 'roboto_slabregular';
+      color: #777; }
+  .wrapper .about .about-item .about-img {
+    width: 30%; }
+    .wrapper .about .about-item .about-img img {
+      display: inline-block;
+      width: 177px;
+      height: 177px;
+      border: 7px solid #f1f1f1;
+      border-radius: 50%; }
+    .wrapper .about .about-item .about-img:after {
+      display: block;
+      margin: 0 auto;
+      height: 94px;
+      width: 3px;
+      content: "";
+      background-color: #f1f1f1; }
+
+.wrapper .about .about-link {
+  display: inline-block;
+  background-color: #fed136;
+  width: 177px;
+  height: 177px;
+  padding-top: 35px;
+  border: 7px solid #f1f1f1;
+  border-radius: 50%;
+  font: 18px/26px 'montserratbold';
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3); }
