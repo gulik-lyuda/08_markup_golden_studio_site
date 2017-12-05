@@ -5865,6 +5865,43 @@ body {
       background: #feb322;
       color: #fff; }
 
+.social a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 3px;
+  border: 3px solid #222;
+  border-radius: 50%;
+  background: url(../images/icons/icons_social.png) no-repeat; }
+
+.social .icon-twitter {
+  background-position: -2px -4px; }
+  .social .icon-twitter:hover {
+    background-color: #00aced;
+    border-color: #00aced;
+    background-position: -2px -44px; }
+
+.social .icon-facebook {
+  background-position: -42px -4px; }
+  .social .icon-facebook:hover {
+    background-color: #3b5998;
+    border-color: #3b5998;
+    background-position: -42px -44px; }
+
+.social .icon-pinterest {
+  background-position: -82px -4px; }
+  .social .icon-pinterest:hover {
+    background-color: #cb2028;
+    border-color: #cb2028;
+    background-position: -82px -44px; }
+
+.social .icon-googleplus {
+  background-position: -122px -4px; }
+  .social .icon-googleplus:hover {
+    background-color: #d95232;
+    border-color: #d95232;
+    background-position: -122px -44px; }
+
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -6030,38 +6067,6 @@ header {
       color: #777; }
     .wrapper .team .team-item .team-item-footer .social {
       margin-top: 10px; }
-      .wrapper .team .team-item .team-item-footer .social a {
-        display: inline-block;
-        width: 40px;
-        height: 40px;
-        margin: 0 3px;
-        border: 3px solid #222;
-        border-radius: 50%;
-        background: url(../images/icons/icons_social.png) no-repeat; }
-      .wrapper .team .team-item .team-item-footer .social .icon-twitter {
-        background-position: -2px -4px; }
-        .wrapper .team .team-item .team-item-footer .social .icon-twitter:hover {
-          background-color: #00aced;
-          border-color: #00aced;
-          background-position: -2px -44px; }
-      .wrapper .team .team-item .team-item-footer .social .icon-facebook {
-        background-position: -42px -4px; }
-        .wrapper .team .team-item .team-item-footer .social .icon-facebook:hover {
-          background-color: #3b5998;
-          border-color: #3b5998;
-          background-position: -42px -44px; }
-      .wrapper .team .team-item .team-item-footer .social .icon-pinterest {
-        background-position: -82px -4px; }
-        .wrapper .team .team-item .team-item-footer .social .icon-pinterest:hover {
-          background-color: #cb2028;
-          border-color: #cb2028;
-          background-position: -82px -44px; }
-      .wrapper .team .team-item .team-item-footer .social .icon-googleplus {
-        background-position: -122px -4px; }
-        .wrapper .team .team-item .team-item-footer .social .icon-googleplus:hover {
-          background-color: #d95232;
-          border-color: #d95232;
-          background-position: -122px -44px; }
   .wrapper .team .team-description {
     font: 16px/16px 'roboto_slabregular';
     color: #777; }
@@ -6101,3 +6106,22 @@ header {
     resize: none; }
   .wrapper .contact .message input[type="submit"] {
     color: #fff; }
+
+footer {
+  padding: 20px 0 30px; }
+  footer p {
+    margin-top: 13px;
+    color: #555;
+    font: 14px/14px 'Tahoma'; }
+  footer .social {
+    margin-left: 365px; }
+    footer .social a {
+      background-color: #222; }
+    footer .social .icon-twitter {
+      background-position: -2px -44px; }
+    footer .social .icon-facebook {
+      background-position: -42px -44px; }
+    footer .social .icon-pinterest {
+      background-position: -82px -44px; }
+    footer .social .icon-googleplus {
+      background-position: -122px -44px; }

@@ -1,0 +1,34 @@
+footer {
+		padding: 20px 0 30px;
+
+		p {
+			margin-top: 13px;
+
+			color: #555;
+			font: 14px/14px 'Tahoma';
+		}
+
+		.social {
+			margin-left: 365px;
+
+			a {
+				background-color: $dark_bg_color;
+			}
+
+			.icon-twitter {
+				background-position: -2px -44px;
+			}
+
+			.icon-facebook {
+				background-position: -42px -44px;
+			}
+
+			.icon-pinterest {
+				background-position: -82px -44px;
+			}
+
+			.icon-googleplus {
+				background-position: -122px -44px;
+			}
+		}
+}
