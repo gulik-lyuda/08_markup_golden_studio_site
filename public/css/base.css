@@ -6055,3 +6055,13 @@ header {
   .wrapper .team .team-description {
     font: 16px/16px 'roboto_slabregular';
     color: #777; }
+
+.wrapper .brands {
+  padding: 60px 0; }
+  .wrapper .brands a {
+    display: inline-block;
+    margin-right: 40px; }
+    .wrapper .brands a:last-child {
+      margin-right: 0; }
+  .wrapper .brands img {
+    vertical-align: middle; }
