@@ -30,7 +30,8 @@
         </header>
 
         <main class="wrapper">
-            <div class="home">
+            <div class="home" name="home"> <!-- Add an attribute 'name' to create anchors 
+                                                for linking from main menu -->
                 <div class="container">
                     <h3>Welcome To Our Studio!</h3>
                     <h1>It’s nice to Meet you</h1>
@@ -38,7 +39,8 @@
                 </div>
             </div> <!-- end of .home --> 
 
-            <div class="services section"> 
+            <div class="services section" name="services"> <!-- Add an attribute 'name' to create anchors 
+                                                                for linking from main menu -->
                 <div class="container">
                     <div class="heading">
                         <h2 class="title">services</h2>
@@ -67,7 +69,8 @@
                 </div>                
             </div> <!-- end of .services -->
 
-            <div class="portfolio section">
+            <div class="portfolio section" name="portfolio"> <!-- Add an attribute 'name' to create anchors 
+                                                                  for linking from main menu -->
                 <div class="container">
                     <div class="heading">
                         <h2 class="title">our portfolio</h2>
@@ -120,7 +123,8 @@
                 </div>
             </div> <!-- end of .portfolio -->
 
-            <div class="about section">
+            <div class="about section" name="about"> <!-- Add an attribute 'name' to create anchors 
+                                                          for linking from main menu -->
                 <div class="container">
                     <div class="heading">
                         <h2 class="title">about us</h2>
@@ -250,13 +254,26 @@
                 </div>
             </div> <!-- end of .logos -->
 
-            <div class="contact section">
+            <div class="contact section" name="contact"> <!-- Add an attribute 'name' to create anchors 
+                                                              for linking from main menu -->
                 <div class="container">
                     <div class="heading">
                         <h2 class="title">contact us</h2>
                         <p class="description">Proin iaculis purus consequat sem cure.</p>
                     </div>
-                    
+                    <form action="#" class="message">
+                        <div class="clearfix">
+                            <div class="left">
+                                <input type="text" placeholder="your name *">
+                                <input type="text" placeholder="your e-mail *">
+                                <input type="text" placeholder="subject">
+                            </div>
+                            <div class="right">
+                                <textarea placeholder="your message *" cols="0" rows="0"></textarea>
+                            </div>    
+                        </div>
+                        <input class="btn_more" type="submit" value="send message">                        
+                    </form>                    
                 </div>
             </div> <!-- end of .contact -->
         </main>

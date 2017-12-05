@@ -5853,6 +5853,17 @@ body {
     font: bold 18px/18px 'montserratbold';
     text-transform: uppercase;
     color: #222; }
+  .section .btn_more {
+    display: inline-block;
+    padding: 20px 30px;
+    background: #fed136;
+    border-radius: 4px;
+    border: none;
+    font: bold 18px/18px 'montserratbold';
+    text-transform: uppercase; }
+    .section .btn_more:hover {
+      background: #feb322;
+      color: #fff; }
 
 .clearfix:before,
 .clearfix:after {
@@ -5873,6 +5884,16 @@ body {
 
 .text-right {
   text-align: right; }
+
+::-webkit-input-placeholder {
+  font: 14px/14px 'montserratbold';
+  color: #bbb;
+  text-transform: uppercase; }
+
+::-moz-placeholder {
+  font: 14px/14px 'montserratbold';
+  color: #bbb;
+  text-transform: uppercase; }
 
 header {
   position: absolute;
@@ -5910,17 +5931,6 @@ header {
     padding-bottom: 50px;
     font: 75px/75px 'montserratbold';
     text-transform: uppercase; }
-  .wrapper .home .btn_more {
-    display: inline-block;
-    padding: 20px 30px;
-    background: #fed136;
-    border-radius: 4px;
-    border: none;
-    font: bold 18px/18px 'montserratbold';
-    text-transform: uppercase; }
-    .wrapper .home .btn_more:hover {
-      background: #feb322;
-      color: #fff; }
 
 .wrapper .services .services-item {
   float: left;
@@ -6065,3 +6075,29 @@ header {
       margin-right: 0; }
   .wrapper .brands img {
     vertical-align: middle; }
+
+.wrapper .contact {
+  background: #222 url("../images/backgrounds/contact_bg.png") no-repeat right bottom; }
+  .wrapper .contact .title {
+    color: #fff; }
+  .wrapper .contact .message .left, .wrapper .contact .message .right {
+    width: 48%; }
+  .wrapper .contact .message input[type="text"], .wrapper .contact .message textarea {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    background: #fff;
+    border-radius: 4px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    font: 14px/14px 'montserratbold';
+    color: #222; }
+  .wrapper .contact .message input[type="text"] {
+    height: 50px;
+    border: 1px solid #ccc; }
+  .wrapper .contact .message textarea {
+    height: 210px;
+    border: none;
+    resize: none; }
+  .wrapper .contact .message input[type="submit"] {
+    color: #fff; }

@@ -21,22 +21,6 @@
 			font: 75px/75px 'montserratbold';
 			text-transform: uppercase;
 		}
-
-		.btn_more {
-			display: inline-block;
-			padding: 20px 30px;
-			background: $orange_color;
-			border-radius: 4px;
-			border: none;
-
-			font: bold 18px/18px 'montserratbold';
-			text-transform: uppercase;
-
-			&:hover {
-				background: $dark_orange_color;
-				color: $white-color;
-			}
-		}
 	} // end of .home
 
 	.services {
@@ -269,5 +253,49 @@
 			img {
 				vertical-align: middle;
 			}
-		}
+		} // end of .brands
+
+		.contact {
+			background: $dark_bg_color url('../images/backgrounds/contact_bg.png') no-repeat right bottom;
+
+			.title {
+				color: $white-color;
+			}
+
+			.message {
+
+				.left, .right {
+					width: 48%;
+				}
+
+				input[type="text"],	textarea {
+					width: 100%;		
+					margin-bottom: 30px;
+					padding: 15px 20px;
+
+					background: $white-color;
+					border-radius: 4px;
+					box-shadow: none;
+
+					font: 14px/14px 'montserratbold';
+					color: $dark_bg_color;
+				}
+
+				input[type="text"] {
+					height: 50px;
+					border: 1px solid $light_grey_border;
+				}
+
+				textarea {
+					height: 210px;
+					border: none;
+					resize: none;
+				}
+
+				input[type="submit"] {
+					color: $white_color;
+				}
+			}
+		} // end of .contact
 }
+

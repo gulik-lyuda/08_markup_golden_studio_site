@@ -41,6 +41,22 @@ body {
 		text-transform: uppercase;
 		color: $dark_bg_color;
 	}
+
+	.btn_more {
+			display: inline-block;
+			padding: 20px 30px;
+			background: $orange_color;
+			border-radius: 4px;
+			border: none;
+
+			font: bold 18px/18px 'montserratbold';
+			text-transform: uppercase;
+
+			&:hover {
+				background: $dark_orange_color;
+				color: $white-color;
+			}
+		}
 }
 
 // to zero out floats
@@ -68,4 +84,17 @@ body {
 
 .text-right {
 	text-align: right;
+}
+
+// Add styles for placeholders in our send message form
+::-webkit-input-placeholder {
+	font: 14px/14px 'montserratbold';
+	color: $light_grey_font;
+	text-transform: uppercase;
+}
+
+::-moz-placeholder {
+	font: 14px/14px 'montserratbold';
+	color: $light_grey_font;
+	text-transform: uppercase;
 }
